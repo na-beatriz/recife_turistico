@@ -1,0 +1,56 @@
+h1 {
+    padding: 40px 5px 50px 10px;
+    text-align: left;
+    background-color: orangered;
+    color: antiquewhite;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    float: right;
+    padding-top: 40px;
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+    background-color: orangered;
+    color: antiquewhite;
+}
+
+#hist, #pont, #comidas {
+    margin: 20px 5px 20px 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+}
+
+.gallery:hoover {
+    border: 1px solid #777
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.rodape{
+    background-color: orangered;
+    padding: 30px 40px 30px 40px;
+    text-align: center;
+    color: antiquewhite;
+}
